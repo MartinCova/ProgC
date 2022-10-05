@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEA2CA1728E4264F008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA1628E4264F008FBE65 /* main.c */; };
-		BEA2CA2228E42683008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2128E42683008FBE65 /* main.c */; };
-		BEA2CA2D28E4319D008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2C28E4319D008FBE65 /* main.c */; };
-		BEA2CA3828E436F2008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA3728E436F2008FBE65 /* main.c */; };
-		BEA2CA4328E5A3F8008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA4228E5A3F8008FBE65 /* main.c */; };
-		BEA2CA4E28E72903008FBE65 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA4D28E72903008FBE65 /* main.c */; };
+		BEA2CA1728E4264F008FBE65 /* puissance.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA1628E4264F008FBE65 /* puissance.c */; };
+		BEA2CA2228E42683008FBE65 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2128E42683008FBE65 /* bits.c */; };
+		BEA2CA2D28E4319D008FBE65 /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2C28E4319D008FBE65 /* fibonacci.c */; };
+		BEA2CA3828E436F2008FBE65 /* chaine.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA3728E436F2008FBE65 /* chaine.c */; };
+		BEA2CA4328E5A3F8008FBE65 /* etudiant.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA4228E5A3F8008FBE65 /* etudiant.c */; };
+		BEA2CA4E28E72903008FBE65 /* etudiant2.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA4D28E72903008FBE65 /* etudiant2.c */; };
+		BEA2CA9C28EDCCF8008FBE65 /* couleurs.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA9B28EDCCF8008FBE65 /* couleurs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,22 +80,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BEA2CA9728EDCCF8008FBE65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BEA2CA0628E42466008FBE65 /* TP2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA2CA1428E4264E008FBE65 /* puissance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puissance; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA1628E4264F008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA1628E4264F008FBE65 /* puissance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = puissance.c; sourceTree = "<group>"; };
 		BEA2CA1F28E42683008FBE65 /* bits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bits; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA2128E42683008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA2128E42683008FBE65 /* bits.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bits.c; sourceTree = "<group>"; };
 		BEA2CA2A28E4319D008FBE65 /* fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fibonacci; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA2C28E4319D008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA2C28E4319D008FBE65 /* fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fibonacci.c; sourceTree = "<group>"; };
 		BEA2CA3528E436F2008FBE65 /* chaine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chaine; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA3728E436F2008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA3728E436F2008FBE65 /* chaine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chaine.c; sourceTree = "<group>"; };
 		BEA2CA4028E5A3F7008FBE65 /* etudiant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = etudiant; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA4228E5A3F8008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA4228E5A3F8008FBE65 /* etudiant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = etudiant.c; sourceTree = "<group>"; };
 		BEA2CA4B28E72903008FBE65 /* etudiant2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = etudiant2; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA2CA4D28E72903008FBE65 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BEA2CA4D28E72903008FBE65 /* etudiant2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = etudiant2.c; sourceTree = "<group>"; };
+		BEA2CA9928EDCCF8008FBE65 /* couleurs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = couleurs; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA2CA9B28EDCCF8008FBE65 /* couleurs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = couleurs.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +159,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEA2CA9628EDCCF8008FBE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -159,6 +178,7 @@
 				BEA2CA3628E436F2008FBE65 /* chaine */,
 				BEA2CA4128E5A3F8008FBE65 /* etudiant */,
 				BEA2CA4C28E72903008FBE65 /* etudiant2 */,
+				BEA2CA9A28EDCCF8008FBE65 /* couleurs */,
 				BEA2CA0728E42466008FBE65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +193,7 @@
 				BEA2CA3528E436F2008FBE65 /* chaine */,
 				BEA2CA4028E5A3F7008FBE65 /* etudiant */,
 				BEA2CA4B28E72903008FBE65 /* etudiant2 */,
+				BEA2CA9928EDCCF8008FBE65 /* couleurs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +201,7 @@
 		BEA2CA1528E4264F008FBE65 /* puissance */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA1628E4264F008FBE65 /* main.c */,
+				BEA2CA1628E4264F008FBE65 /* puissance.c */,
 			);
 			path = puissance;
 			sourceTree = "<group>";
@@ -188,7 +209,7 @@
 		BEA2CA2028E42683008FBE65 /* bits */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA2128E42683008FBE65 /* main.c */,
+				BEA2CA2128E42683008FBE65 /* bits.c */,
 			);
 			path = bits;
 			sourceTree = "<group>";
@@ -196,7 +217,7 @@
 		BEA2CA2B28E4319D008FBE65 /* fibonacci */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA2C28E4319D008FBE65 /* main.c */,
+				BEA2CA2C28E4319D008FBE65 /* fibonacci.c */,
 			);
 			path = fibonacci;
 			sourceTree = "<group>";
@@ -204,7 +225,7 @@
 		BEA2CA3628E436F2008FBE65 /* chaine */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA3728E436F2008FBE65 /* main.c */,
+				BEA2CA3728E436F2008FBE65 /* chaine.c */,
 			);
 			path = chaine;
 			sourceTree = "<group>";
@@ -212,7 +233,7 @@
 		BEA2CA4128E5A3F8008FBE65 /* etudiant */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA4228E5A3F8008FBE65 /* main.c */,
+				BEA2CA4228E5A3F8008FBE65 /* etudiant.c */,
 			);
 			path = etudiant;
 			sourceTree = "<group>";
@@ -220,9 +241,17 @@
 		BEA2CA4C28E72903008FBE65 /* etudiant2 */ = {
 			isa = PBXGroup;
 			children = (
-				BEA2CA4D28E72903008FBE65 /* main.c */,
+				BEA2CA4D28E72903008FBE65 /* etudiant2.c */,
 			);
 			path = etudiant2;
+			sourceTree = "<group>";
+		};
+		BEA2CA9A28EDCCF8008FBE65 /* couleurs */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2CA9B28EDCCF8008FBE65 /* couleurs.c */,
+			);
+			path = couleurs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +376,23 @@
 			productReference = BEA2CA4B28E72903008FBE65 /* etudiant2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		BEA2CA9828EDCCF8008FBE65 /* couleurs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA2CA9D28EDCCF8008FBE65 /* Build configuration list for PBXNativeTarget "couleurs" */;
+			buildPhases = (
+				BEA2CA9528EDCCF8008FBE65 /* Sources */,
+				BEA2CA9628EDCCF8008FBE65 /* Frameworks */,
+				BEA2CA9728EDCCF8008FBE65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = couleurs;
+			productName = couleurs;
+			productReference = BEA2CA9928EDCCF8008FBE65 /* couleurs */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -377,6 +423,9 @@
 					BEA2CA4A28E72903008FBE65 = {
 						CreatedOnToolsVersion = 14.0;
 					};
+					BEA2CA9828EDCCF8008FBE65 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 				};
 			};
 			buildConfigurationList = BEA2CA0128E42466008FBE65 /* Build configuration list for PBXProject "TP2" */;
@@ -399,6 +448,7 @@
 				BEA2CA3428E436F2008FBE65 /* chaine */,
 				BEA2CA3F28E5A3F7008FBE65 /* etudiant */,
 				BEA2CA4A28E72903008FBE65 /* etudiant2 */,
+				BEA2CA9828EDCCF8008FBE65 /* couleurs */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA1728E4264F008FBE65 /* main.c in Sources */,
+				BEA2CA1728E4264F008FBE65 /* puissance.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA2228E42683008FBE65 /* main.c in Sources */,
+				BEA2CA2228E42683008FBE65 /* bits.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA2D28E4319D008FBE65 /* main.c in Sources */,
+				BEA2CA2D28E4319D008FBE65 /* fibonacci.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA3828E436F2008FBE65 /* main.c in Sources */,
+				BEA2CA3828E436F2008FBE65 /* chaine.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA4328E5A3F8008FBE65 /* main.c in Sources */,
+				BEA2CA4328E5A3F8008FBE65 /* etudiant.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +505,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2CA4E28E72903008FBE65 /* main.c in Sources */,
+				BEA2CA4E28E72903008FBE65 /* etudiant2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2CA9528EDCCF8008FBE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2CA9C28EDCCF8008FBE65 /* couleurs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +741,22 @@
 			};
 			name = Release;
 		};
+		BEA2CA9E28EDCCF8008FBE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEA2CA9F28EDCCF8008FBE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -754,6 +828,15 @@
 			buildConfigurations = (
 				BEA2CA5028E72903008FBE65 /* Debug */,
 				BEA2CA5128E72903008FBE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA2CA9D28EDCCF8008FBE65 /* Build configuration list for PBXNativeTarget "couleurs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA2CA9E28EDCCF8008FBE65 /* Debug */,
+				BEA2CA9F28EDCCF8008FBE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

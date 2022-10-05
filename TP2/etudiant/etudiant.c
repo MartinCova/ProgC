@@ -32,13 +32,12 @@ int main() {
     char adresse[5][30] = {"paris","lyon","marseille","toulouse","bordeaux"};
     short note1[5] = {10,12,15,16,18};
     short note2[5] = {0,2,5,6,8};
-    char choix[] = "";
+//    char choix[] = "";
 
     short num_choose = choose(name);
     
     afficher_eleve(*(name +num_choose), *(surname +num_choose), *(adresse +num_choose),
-                   *(note1 +num_choose),
-                   *(note2 +num_choose));
+                   *(note1 +num_choose),*(note2 +num_choose));
     
     return 0;
     
