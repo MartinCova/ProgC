@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE85195728F6AE0100CD594E /* ptrvariables.c in Sources */ = {isa = PBXBuildFile; fileRef = BE85195628F6AE0100CD594E /* ptrvariables.c */; };
 		BEA2CA1728E4264F008FBE65 /* puissance.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA1628E4264F008FBE65 /* puissance.c */; };
 		BEA2CA2228E42683008FBE65 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2128E42683008FBE65 /* bits.c */; };
 		BEA2CA2D28E4319D008FBE65 /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2C28E4319D008FBE65 /* fibonacci.c */; };
@@ -17,6 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BE85195228F6AE0100CD594E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BEA2CA0428E42466008FBE65 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +102,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE85195428F6AE0100CD594E /* ptrvariables */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ptrvariables; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85195628F6AE0100CD594E /* ptrvariables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ptrvariables.c; sourceTree = "<group>"; };
 		BEA2CA0628E42466008FBE65 /* TP2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA2CA1428E4264E008FBE65 /* puissance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puissance; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA2CA1628E4264F008FBE65 /* puissance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = puissance.c; sourceTree = "<group>"; };
@@ -110,6 +122,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE85195128F6AE0100CD594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEA2CA0328E42466008FBE65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +188,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE85195528F6AE0100CD594E /* ptrvariables */ = {
+			isa = PBXGroup;
+			children = (
+				BE85195628F6AE0100CD594E /* ptrvariables.c */,
+			);
+			path = ptrvariables;
+			sourceTree = "<group>";
+		};
 		BEA2C9FD28E42466008FBE65 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +206,7 @@
 				BEA2CA4128E5A3F8008FBE65 /* etudiant */,
 				BEA2CA4C28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9A28EDCCF8008FBE65 /* couleurs */,
+				BE85195528F6AE0100CD594E /* ptrvariables */,
 				BEA2CA0728E42466008FBE65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,6 +222,7 @@
 				BEA2CA4028E5A3F7008FBE65 /* etudiant */,
 				BEA2CA4B28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9928EDCCF8008FBE65 /* couleurs */,
+				BE85195428F6AE0100CD594E /* ptrvariables */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +286,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BE85195328F6AE0100CD594E /* ptrvariables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85195A28F6AE0100CD594E /* Build configuration list for PBXNativeTarget "ptrvariables" */;
+			buildPhases = (
+				BE85195028F6AE0100CD594E /* Sources */,
+				BE85195128F6AE0100CD594E /* Frameworks */,
+				BE85195228F6AE0100CD594E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ptrvariables;
+			productName = ptrvariables;
+			productReference = BE85195428F6AE0100CD594E /* ptrvariables */;
+			productType = "com.apple.product-type.tool";
+		};
 		BEA2CA0528E42466008FBE65 /* TP2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA2CA0D28E42466008FBE65 /* Build configuration list for PBXNativeTarget "TP2" */;
@@ -402,6 +448,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					BE85195328F6AE0100CD594E = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					BEA2CA0528E42466008FBE65 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -449,11 +498,20 @@
 				BEA2CA3F28E5A3F7008FBE65 /* etudiant */,
 				BEA2CA4A28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9828EDCCF8008FBE65 /* couleurs */,
+				BE85195328F6AE0100CD594E /* ptrvariables */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE85195028F6AE0100CD594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85195728F6AE0100CD594E /* ptrvariables.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEA2CA0228E42466008FBE65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -520,6 +578,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BE85195828F6AE0100CD594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE85195928F6AE0100CD594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BEA2CA0B28E42466008FBE65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,6 +834,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE85195A28F6AE0100CD594E /* Build configuration list for PBXNativeTarget "ptrvariables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85195828F6AE0100CD594E /* Debug */,
+				BE85195928F6AE0100CD594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEA2CA0128E42466008FBE65 /* Build configuration list for PBXProject "TP2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
