@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE85195728F6AE0100CD594E /* ptrvariables.c in Sources */ = {isa = PBXBuildFile; fileRef = BE85195628F6AE0100CD594E /* ptrvariables.c */; };
+		BE85196228F6FBAE00CD594E /* tableauptr.c in Sources */ = {isa = PBXBuildFile; fileRef = BE85196128F6FBAE00CD594E /* tableauptr.c */; };
 		BEA2CA1728E4264F008FBE65 /* puissance.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA1628E4264F008FBE65 /* puissance.c */; };
 		BEA2CA2228E42683008FBE65 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2128E42683008FBE65 /* bits.c */; };
 		BEA2CA2D28E4319D008FBE65 /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = BEA2CA2C28E4319D008FBE65 /* fibonacci.c */; };
@@ -19,6 +20,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BE85195228F6AE0100CD594E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BE85195D28F6FBAD00CD594E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -104,6 +114,8 @@
 /* Begin PBXFileReference section */
 		BE85195428F6AE0100CD594E /* ptrvariables */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ptrvariables; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE85195628F6AE0100CD594E /* ptrvariables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ptrvariables.c; sourceTree = "<group>"; };
+		BE85195F28F6FBAE00CD594E /* tableauptr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tableauptr; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85196128F6FBAE00CD594E /* tableauptr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tableauptr.c; sourceTree = "<group>"; };
 		BEA2CA0628E42466008FBE65 /* TP2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA2CA1428E4264E008FBE65 /* puissance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puissance; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA2CA1628E4264F008FBE65 /* puissance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = puissance.c; sourceTree = "<group>"; };
@@ -123,6 +135,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE85195128F6AE0100CD594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85195C28F6FBAD00CD594E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,6 +215,14 @@
 			path = ptrvariables;
 			sourceTree = "<group>";
 		};
+		BE85196028F6FBAE00CD594E /* tableauptr */ = {
+			isa = PBXGroup;
+			children = (
+				BE85196128F6FBAE00CD594E /* tableauptr.c */,
+			);
+			path = tableauptr;
+			sourceTree = "<group>";
+		};
 		BEA2C9FD28E42466008FBE65 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +234,7 @@
 				BEA2CA4C28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9A28EDCCF8008FBE65 /* couleurs */,
 				BE85195528F6AE0100CD594E /* ptrvariables */,
+				BE85196028F6FBAE00CD594E /* tableauptr */,
 				BEA2CA0728E42466008FBE65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -223,6 +251,7 @@
 				BEA2CA4B28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9928EDCCF8008FBE65 /* couleurs */,
 				BE85195428F6AE0100CD594E /* ptrvariables */,
+				BE85195F28F6FBAE00CD594E /* tableauptr */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,6 +330,23 @@
 			name = ptrvariables;
 			productName = ptrvariables;
 			productReference = BE85195428F6AE0100CD594E /* ptrvariables */;
+			productType = "com.apple.product-type.tool";
+		};
+		BE85195E28F6FBAD00CD594E /* tableauptr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85196328F6FBAE00CD594E /* Build configuration list for PBXNativeTarget "tableauptr" */;
+			buildPhases = (
+				BE85195B28F6FBAD00CD594E /* Sources */,
+				BE85195C28F6FBAD00CD594E /* Frameworks */,
+				BE85195D28F6FBAD00CD594E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableauptr;
+			productName = tableauptr;
+			productReference = BE85195F28F6FBAE00CD594E /* tableauptr */;
 			productType = "com.apple.product-type.tool";
 		};
 		BEA2CA0528E42466008FBE65 /* TP2 */ = {
@@ -451,6 +497,9 @@
 					BE85195328F6AE0100CD594E = {
 						CreatedOnToolsVersion = 14.0;
 					};
+					BE85195E28F6FBAD00CD594E = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					BEA2CA0528E42466008FBE65 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -499,6 +548,7 @@
 				BEA2CA4A28E72903008FBE65 /* etudiant2 */,
 				BEA2CA9828EDCCF8008FBE65 /* couleurs */,
 				BE85195328F6AE0100CD594E /* ptrvariables */,
+				BE85195E28F6FBAD00CD594E /* tableauptr */,
 			);
 		};
 /* End PBXProject section */
@@ -509,6 +559,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE85195728F6AE0100CD594E /* ptrvariables.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85195B28F6FBAD00CD594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85196228F6FBAE00CD594E /* tableauptr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +645,22 @@
 			name = Debug;
 		};
 		BE85195928F6AE0100CD594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE85196428F6FBAE00CD594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE85196528F6FBAE00CD594E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -839,6 +913,15 @@
 			buildConfigurations = (
 				BE85195828F6AE0100CD594E /* Debug */,
 				BE85195928F6AE0100CD594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85196328F6FBAE00CD594E /* Build configuration list for PBXNativeTarget "tableauptr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85196428F6FBAE00CD594E /* Debug */,
+				BE85196528F6FBAE00CD594E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
