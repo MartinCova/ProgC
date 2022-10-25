@@ -23,7 +23,6 @@ int chercher(void){
     int val_to_search;
         printf("valeur à chercher : ");
         scanf("%d", &val_to_search);
-        
     for(int i =0; i< SIZE_TAB; i++){
         printf("%d \n", *(ptrtab+i));
         if(*(ptrtab+i) == val_to_search){
