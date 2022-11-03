@@ -186,8 +186,6 @@ int lire_fichier(int socketfd){
 }
 
 
-
-
 void viderBuffer(void){
   int c;
   while((c=getchar()) != EOF && c != '\n');

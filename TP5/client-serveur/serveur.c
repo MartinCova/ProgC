@@ -71,7 +71,7 @@ int calcul_or_message(int socketfd){
           recois_envoie_message(socketfd, client_socket_fd, data);
       }
       else {
-          return EXIT_SUCCESS;
+          exit(EXIT_SUCCESS);
       }
     }
     return EXIT_SUCCESS;

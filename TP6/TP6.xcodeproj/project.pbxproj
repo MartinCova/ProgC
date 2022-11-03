@@ -51,6 +51,7 @@
 		BE851A39290939BE00CD594E /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
 		BE851A3F290939EC00CD594E /* serveur */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = serveur; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8CED4A2909A78100B5300A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BEFD9CF92913EEB200FB6E36 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		BE851A002909383600CD594E = {
 			isa = PBXGroup;
 			children = (
+				BEFD9CF92913EEB200FB6E36 /* test.json */,
 				BE8CED4A2909A78100B5300A /* images */,
 				BE851A252909391500CD594E /* bmp.c */,
 				BE851A272909391500CD594E /* bmp.h */,
