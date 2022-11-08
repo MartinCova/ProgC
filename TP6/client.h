@@ -1,0 +1,32 @@
+/*
+ * SPDX-FileCopyrightText: 2021 John Samuel
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ *
+ */
+
+#ifndef __CLIENT_H__
+#define __CLIENT_H__
+
+/*
+ * port d'ordinateur pour envoyer et recevoir des messages
+ */
+#define PORT 8089
+
+/*
+ * Fonction d'envoi et de réception de messages
+ * Il faut un argument : l'identifiant de la socket
+ */
+
+typedef struct json_TP6 {
+    char *str;
+    struct{
+        char *code;
+        char *val;
+    };
+} Json;
+
+int envoie_recois_message(int socketfd, Json *instrcution);
+
+void viderBuffer(void);
+#endif
