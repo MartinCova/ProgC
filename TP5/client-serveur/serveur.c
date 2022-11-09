@@ -99,6 +99,7 @@ int recois_envoie_message(int socketfd,int client_socket_fd, char *data ){
 }
 
 int recois_numeros_calcule(int socketfd,int client_socket_fd, char *data){
+    
     char delim[] = " "; // création de la délimitation
     char *ptr = strtok(data, delim);// strtok sépare data en deux : ptr à gauche, le reste de data à droite
     ptr = strtok(NULL, delim);
@@ -108,21 +109,34 @@ int recois_numeros_calcule(int socketfd,int client_socket_fd, char *data){
     ptr = strtok(NULL, delim);
     int v2 = atoi(ptr);         // on récupère la variable 2
     
-    int result = 0;
+//    printf("%d \n", v1);
+//    printf("%d \n", v2);
+//
+//    printf("%x", (int)(*operator));
     
+//    int val_operator = v2+v1;
+//    printf("%s \n", operator);
+//    printf("%d \n", val_operator);
+    
+    int result = 0;
+
     switch (*operator) {
         case 0x2B:
-            result =  v1 + v2;
+            result =  v1+v2;
             break;
         case 0x2A:
             result =  v1 * v2;
+            break;
         case 0x2D:
             result =  v1 - v2;
+            break;
         case 0x2F:
             result =  v1 / v2;
+            break;
         default:
             break;
     }
+
     char result_str[20];
     sprintf(result_str, "%d", result);
     char message[1024];

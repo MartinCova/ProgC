@@ -119,7 +119,7 @@ couleur_compteur *compte_couleur(couleur *c, int csize)
   }
   compteur->size = compteur_size;
 
-//  hdestroy();
+  hdestroy();
 
   return compteur;
 }
@@ -209,12 +209,12 @@ void trier_couleur_compteur(couleur_compteur *ccompteur)
   {
       printf("la dedans\n");
     qsort_r(ccompteur->cc.cc24, ccompteur->size, sizeof(couleur24_compteur),
-            (void *)&bc, (void*)compare_compteur) ;
+            compare_compteur,(void *)&bc ) ;
   }
   else if (ccompteur->compte_bit == BITS32)
   {
       printf("pas dedans \n");
       qsort_r(ccompteur->cc.cc32, ccompteur->size, sizeof(couleur32_compteur),
-            (void*)&bc, (void*)compare_compteur);
+            compare_compteur, (void*)&bc);
   }
 }
