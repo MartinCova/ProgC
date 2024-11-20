@@ -150,7 +150,7 @@ int lire_fichier(int socketfd){
         sprintf(index_j, "%d", j);
         for(int i =1; i<6; i++){
             char index_i[4];
-                 char rep[4096] = "etudiant/";
+                 char rep[4096] = "../		etudiant/";
                  sprintf(index_i, "%d", i);
                  strcat(strcat(strcat(strcat(rep, index_j),"/note"),index_i),".txt");
                  
